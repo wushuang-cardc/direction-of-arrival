@@ -1,3 +1,5 @@
 # direction-of-arrival
 Unsupervised Learning DOA Estimation aided by Array Imperfections Adaptive Filtering
+
+
 In this paper, we present a novel method for estimating the Direction of Arrival (DOA) using adaptive filtering and unsupervised learning. The approach considers the impact of array imperfections on the accuracy of DOA estimation. Initially, we construct a spatial filter network trained on a limited set of available labeled data, allowing it to handle complex nonlinear array imperfections effectively.  Next, We introduce MUSIC-NET, a method that maps the covariance matrix to spatial spectrum estimation through unsupervised learning utilizing synthetic data. This approach eliminates the need to estimate the number of sources and reduces reliance on labeled data. Our simulation results demonstrate that this innovative method successfully compensates for array imperfections, resulting in stable and reliable DOA estimates, even under conditions of low signal-to-noise ratios and limited snapshots. The accuracy of our estimations closely aligns with the Cramer-Rao Lower Bound (CRLB).
